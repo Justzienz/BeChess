@@ -16,3 +16,4 @@ Performance basics are covered: assets are minified into single CSS and JS files
 
 * Follow Bucky: [Twitter](https://twitter.com/BuckyMaler), [GitHub](https://github.com/BuckyMaler)
 * Follow Sergey: [Dribbble](https://dribbble.com/sergeymelnik), [Bēhance](https://www.behance.net/SergeyMelnik)
+# BeChess
