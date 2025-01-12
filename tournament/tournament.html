@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BeChess Tournament</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Bechess">
+  <meta name="author" content="justzienz">
+  <link rel="stylesheet" href="tournament.css">
+</head>
+<body>
+    <main>
+        <header>
+            <a class="header--logo" href="/">
+                <img src="../assets/img/logo.png" alt="Global" height="50">
+            </a>
+        </header> 
+
+        <h1 class="montserrat-500">Blitz Oazis, 5+3</h1>
+        <h1 class="montserrat-300">Tours</h1>
+
+        <section id="buttons-section">
+            <button class="nav-button montserrat-500">Info</button>
+            <button class="nav-button montserrat-500" onclick="copyLink()">Share</button>
+            <div id="copyNotification" class="copy-notification" style="display: none;">Link copied!</div>
+            <button class="nav-button montserrat-500" onclick="addPlayer()">Add Player</button>
+            <button class="nav-button montserrat-500" onclick="removePlayer()">Remove Player</button>
+            <button class="nav-button montserrat-500" onclick="generateRound()">Generate Round</button>
+            <button class="nav-button montserrat-500" onclick="deleteRound()">Delete Round</button>
+        </section>
+
+        <section id="tours-section">
+            <h1 class="montserrat-500">Tour</h1>
+            <button onclick="changeRound(0)" class="tour-button-active montserrat-500 round-buttons">&#x1F3E0;</button>
+        </section>
+
+
+
+
+
+        <section id="tournament-board-section">
+            
+
+        </section>
+    </main>  
+    <script src="tournament.js"></script>
+</body>
+</html>
