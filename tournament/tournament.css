@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:wght@100..900&display=swap');
+
+.montserrat-500 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.montserrat-300 {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    /* Centers horizontally */
+    /* align-items: center; Centers vertically */
+    height: 100vh;
+    margin: 0;
+    background-color: #0c0c0c;
+}
+
+main {
+    padding-top: 10px;
+    width: 95%;
+    max-width: 600px;
+    background-color: #0c0c0c;
+}
+
+.nav-button {
+    background-color: #0F33FF;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+#tours-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tour-button {
+    background-color: #AAA;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.tour-button-active {
+    background-color: #0F33FF;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+
+#tournament-board-section {
+    padding-bottom: 200px;
+}
+
+.pair {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.player-info {
+    display: flex;
+    /* Use Flexbox */
+    flex: 1 1 50px;
+    align-items: center;
+    /* Vertically center items */
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+    width: 150px;
+    border-radius: 33px;
+    color: black;
+    padding: 0px;
+    height: 70px;
+    font-size: 8px;
+}
+
+.pair-number {
+    width: 50px;
+    height: 50px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 20px;
+}
+
+.player-points {
+    margin-right: 10px;
+    background-color: #FFE03E;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 1rem;
+    margin-left: 0px;
+}
+
+.player-name {
+    flex: 1 1 50px;
+    margin-left: 10px;
+    margin-right: 0px;
+}
+
+.game-result {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+
+}
+
+.game-result-text {
+    margin: 0;
+    /* Remove default margin */
+    padding: 5px 0;
+    /* Optional padding for spacing */
+    font-size: 1rem;
+}
+
+.copy-button {
+    background-color: #007bff;
+    /* Primary color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.copy-notification {
+    margin-top: 10px;
+    /* Space above the notification */
+    background-color: #007bff;
+    /* Success color */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: fixed;
+    /* Position it above the button */
+    display: none;
+    /* Hidden by default */
+    z-index: 1000;
+    left:50%;
+    top:80%;
+    transform: translateX(-50%);
+}
